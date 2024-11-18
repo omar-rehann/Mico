@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mico</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="page">
+        <!-- start hedaer -->
+        <header class="top">
+            <div class="logo">
+                <div class="text">
+                    <img src="images/logo.png" alt="">
+
+                </div>
+                <div class="icon">
+                    <i class="fa-solid fa-x close"></i>
+                </div>
+
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#lan">Home</a>
+                    </li>
+                    <li>
+                        <a href="#abo">About</a>
+                    </li>
+                    <li>
+                        <a href="#tret">Treatment</a>
+                    </li>
+                    <li>
+                        <a href="#do">Doctors</a>
+                    </li>
+
+                    <li>
+                        <a href="#foot">Concat Us</a>
+                    </li>
+                    <li>
+                        <a href="">Log In</a>
+                    </li>
+                    <li>
+                        <a href="">Log Out</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!-- end header -->
+        <i class="fa-solid fa-sliders toogle"></i>
+        <!--  start landing-->
+        <div class="landing" id="lan">
+            <div class="continer">
+                <div class="box m-2">
+                    <div class="text">
+                        <h2>Mico</h2>
+                        <h3>Hospital</h3>
+                        <p>when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to</p>
+                        <button>Read More <i class="fa-solid fa-right-long" style="margin-left: 10px;"></i></button>
+
+                    </div>
+                    <div class="image">
+                        <img src="images/slider-img.jpg" alt="">
+                    </div>
+                </div>
+                <div class="box m-2">
+                    <div class="text">
+                        <h2>Mico</h2>
+                        <h3>Hospital</h3>
+                        <p>when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to</p>
+                        <button>Read More <i class="fa-solid fa-right-long" style="margin-left: 10px;"></i></button>
+
+                    </div>
+                    <div class="image">
+                        <img src="images/slider-img.jpg" alt="">
+                    </div>
+                </div>
+                <div class="box m-2">
+                    <div class="text">
+                        <h2>Mico</h2>
+                        <h3>Hospital</h3>
+                        <p>when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to</p>
+                        <button>Read More <i class="fa-solid fa-right-long" style="margin-left: 10px;"></i></button>
+
+                    </div>
+                    <div class="image">
+                        <img src="images/slider-img.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="box m-2">
+                    <div class="text">
+                        <h2>Mico</h2>
+                        <h3>Hospital</h3>
+                        <p>when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to</p>
+                        <button>Read More <i class="fa-solid fa-right-long" style="margin-left: 10px;"></i></button>
+
+                    </div>
+                    <div class="image">
+                        <img src="images/slider-img.jpg" alt="">
+                    </div>
+
+                </div>
+
+            </div>
+            <i class="fa-solid fa-angles-right  right"></i>
+            <i class="fa-solid fa-angles-left left"></i>
+        </div>
+        <!-- end landing -->
+        <!-- stat book -->
+        <div class="book">
+            <div class="continer">
+                <h3>Book Appointment</h3>
+            </div>
+            <div class="content">
+                <div class="row">
+                    <div class="col-md-6 col-lg-4 mb-2">
+                        <input type="text" class="form-control  border border-success" id="email" placeholder="Enter Name" name="email">
+
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-2">
+                        <select class="form-select   border border-success " aria-label="Default select example">
+                            <option selected>Doctor Name</option>
+                            <option value="1">Normal Distribution</option>
+                            <option value="2">Normal Distribution</option>
+                            <option value="3">Normal Distribution</option>
+                          </select>
+
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-2">
+                        <select class="form-select  border border-success" aria-label="Default select example">
+                            <option selected>Department Name </option>
+                            <option value="1">Normal Distribution</option>
+                            <option value="2">Normal Distribution</option>
+                            <option value="3">Normal Distribution</option>
+                          </select>
+
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-2">
+                        <input type="number" a class="form-control  border border-success" id="email" placeholder="XXXXXXXXX" name="email">
+
+
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-2">
+                        <input type="text" a class="form-control  border border-success" id="email" placeholder="Enter Text" name="email">
+
+
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <input type="date" a class="form-control  border border-success" id="email" placeholder="0-7-25-20224" name="email">
+
+
+                    </div>
+                    <div class="col-md-4 col-lg-4">
+                        <button class="btn btn-dark p-2 rounded mt-2 mb-2">Sumbit Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end book -->
+        <!-- start about -->
+        <div class="about" id="abo">
+            <div class="row m-2 align-items-center   ">
+                <div class="col-md-6 col-lg-6">
+                    <div class="image">
+                        <img src="images/about-img.jpg" class=" rounded w-100 " alt="">
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-lg-6">
+                    <div class="text">
+                        <h2>About <span>Hospital</span></h2>
+                        <p> <i class="fa-solid fa-circle fa-beat-fade" style="margin-right: 5px;"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci tempora possimus, eligendi architecto necessitatibus tempore dolores sit cum, quo
+                            sapiente, culpa dolorem dignissimos distinctio dolorum aliquid minima facilis aspernatur?
+                        </p>
+                        <p> <i class="fa-solid fa-circle fa-beat-fade" style="margin-right: 5px;"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci tempora possimus, eligendi architecto necessitatibus tempore dolores sit cum, quo
+                            sapiente, culpa dolorem dignissimos distinctio dolorum aliquid minima facilis aspernatur?
+                        </p>
+                        <button>Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end baout -->
+        <!-- start hospital -->
+        <div class="hos mt-5" id="tret">
+            <div class="continer  text-center">
+                <h2>Hospital <span>Treatment</span></h2>
+            </div>
+            <div class="content mt-4">
+                <div class="row m-2">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="box mb-2">
+                            <img src="images/t1.png" alt="">
+                            <h3>Nephorlogist Care</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas culpa accusantium facilis doloribus molestias tempora quod, sint magnam vel explicabo quo! Modi perferendis ab deserunt minima recusandae, assumenda cupiditate
+                                incidunt.
+                            </p>
+                            <button class="btn btn-dark p-2">Read More</button>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="box mb-2">
+                            <img src="images/t2.png" alt="">
+                            <h3>Eye Care</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas culpa accusantium facilis doloribus molestias tempora quod, sint magnam vel explicabo quo! Modi perferendis ab deserunt minima recusandae, assumenda cupiditate
+                                incidunt.
+                            </p>
+                            <button class="btn btn-dark p-2">Read More</button>
+
+
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="box mb-2">
+                            <img src="images/t3.png" alt="">
+                            <h3>Pedtritican Clinic</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas culpa accusantium facilis doloribus molestias tempora quod, sint magnam vel explicabo quo! Modi perferendis ab deserunt minima recusandae, assumenda cupiditate
+                                incidunt.
+                            </p>
+                            <button class="btn btn-dark p-2">Read More</button>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="box mb-2">
+                            <img src="images/t4.png" alt="">
+                            <h3>Parental Care</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas culpa accusantium facilis doloribus molestias tempora quod, sint magnam vel explicabo quo! Modi perferendis ab deserunt minima recusandae, assumenda cupiditate
+                                incidunt.
+                            </p>
+                            <button class="btn btn-dark p-2">Read More</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end hospital -->
+        <!-- start doctors -->
+        <div class="doc" id="do">
+            <div class="continer text-center">
+                <h2>Our <span>Doctors</span></h2>
+            </div>
+            <div class="slider">
+                <div class="slides">
+                    <div class="boxx text-center">
+                        <img src="images/team1.jpg" alt="">
+                        <h4>ALura</h4>
+                        <span>MBBS</span>
+                        <div class="icon">
+                            <i class="fa-brands fa-facebook" style="color: black;margin: 10px;"></i>
+                            <i class="fa-brands fa-linkedin" style="color: black;margin: 10px;"></i>
+                            <i class="fa-brands fa-github" style="color: black;margin: 10px;"></i>
+                            <i class="fa-brands fa-twitter" style="color: black;margin: 10px;"></i>
+
+                        </div>
+                    </div>
+                    <div class="boxx text-center">
+                        <img src="images/team2.jpg" alt="">
+                        <h4>Jenni</h4>
+                        <span>MBBS</span>
+                        <div class="icon">
+                            <i class="fa-brands fa-facebook" style="color: black;margin: 10px;"></i>
+                            <i class="fa-brands fa-linkedin" style="color: black;margin: 10px;"></i>
+                            <i class="fa-brands fa-github" style="color: black;margin: 10px;"></i>
+                            <i class="fa-brands fa-twitter" style="color: black;margin: 10px;"></i>
+
+                        </div>
+                    </div>
+                    <div class="boxx text-center">
+                        <img src="images/team3.jpg" alt="">
+                        <h4>Morco</h4>
+                        <span>MBBS</span>
+                        <div class="icon">
+                            <i class="fa-brands fa-facebook" style="color: black;margin: 10px;"></i>
+                            <i class="fa-brands fa-linkedin" style="color: black;margin: 10px;"></i>
+                            <i class="fa-brands fa-github" style="color: black;margin: 10px;"></i>
+                            <i class="fa-brands fa-twitter" style="color: black;margin: 10px;"></i>
+
+                        </div>
+                    </div>
+                    <div class="boxx text-center">
+                        <img src="images/team-11.jpg" alt="">
+                        <h4>Eze</h4>
+                        <span>MBBS</span>
+                        <div class="icon">
+                            <i class="fa-brands fa-facebook" style="color: black;margin: 10px;"></i>
+                            <i class="fa-brands fa-linkedin" style="color: black;margin: 10px;"></i>
+                            <i class="fa-brands fa-github" style="color: black;margin: 10px;"></i>
+                            <i class="fa-brands fa-twitter" style="color: black;margin: 10px;"></i>
+
+                        </div>
+                    </div>
+                    <div class="boxx text-center">
+                        <img src="images/team-22.jpg" alt="">
+                        <h4>Listoel</h4>
+                        <span>MBBS</span>
+                        <div class="icon">
+                            <i class="fa-brands fa-facebook" style="color: black;margin: 10px;"></i>
+                            <i class="fa-brands fa-linkedin" style="color: black;margin: 10px;"></i>
+                            <i class="fa-brands fa-github" style="color: black;margin: 10px;"></i>
+                            <i class="fa-brands fa-twitter" style="color: black;margin: 10px;"></i>
+
+                        </div>
+                    </div>
+                    <div class="boxx text-center">
+                        <img src="images/team-33.jpg" alt="">
+                        <h4>Gegoes</h4>
+                        <span>MBBS</span>
+                        <div class="icon">
+                            <i class="fa-brands fa-facebook" style="color: black;margin: 10px;"></i>
+                            <i class="fa-brands fa-linkedin" style="color: black;margin: 10px;"></i>
+                            <i class="fa-brands fa-github" style="color: black;margin: 10px;"></i>
+                            <i class="fa-brands fa-twitter" style="color: black;margin: 10px;"></i>
+
+                        </div>
+                    </div>
+
+                </div>
+                <i class="fa-solid fa-angles-right after"></i>
+                <i class="fa-solid fa-angles-left before"></i>
+            </div>
+        </div>
+        <!-- end doctors -->
+        <!-- start touch -->
+        <div class="touch mt-5">
+            <div class="row m-2">
+                <div class="col-md-6 col-lg-6">
+                    <h2 class="text-dark p-1 fw-bold">Get In Tocuh</h2>
+                    <form action="/action_page.php">
+                        <div class="mb-3 mt-3">
+                            <label for="name" class="form-label">User Name:</label>
+                            <input type="name" class="form-control" id="email" placeholder="Enter email" name="email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email:</label>
+                            <input type="email" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+                        </div>
+                        <div class="mb-3">
+                            <label for="number" class="form-label">Number:</label>
+                            <input type="number" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+                        </div>
+                        <div class="form-check mb-3">
+                            <label class="form-check-label">
+                            <input class="form-check-input" type="checkbox" name="remember"> Remember me
+                          </label>
+                        </div>
+                        <label for="comment">Comments:</label>
+                        <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+                        <button type="submit" class="btn btn-success p-3 mt-3">Send</button>
+                    </form>
+
+                </div>
+                <div class="col-md-6 col-lg-6">
+                    <div class="image">
+                        <img src="images/contact-img.jpg" class="w-100  rounded   mt-5 " alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end touch -->
+        <!-- start footer -->
+        <!-- start footer -->
+        <div class="footer" id="foot">
+            <div class="up"><i class="fa-solid fa-jet-fighter-up"></i></div>
+            <div class="box" class="one">
+                <h2>Omar</h2>
+                <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-linkedin" style="color: #ffffff;"></i>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe, aperiam delectus nostrum et quibusdam facere totam libero modi mollitia earum!</p>
+            </div>
+            <div class="box">
+                <li><a href="#"><i class="fa-solid fa-angles-right" style="color: #0000ff;"></i>Important Link 1</a></li>
+                <li><a href="#"><i class="fa-solid fa-angles-right" style="color: #0000ff;"></i>Important Link 2</a></li>
+                <li><a href="#"><i class="fa-solid fa-angles-right" style="color: #0000ff;"></i>Important Link 3</a></li>
+                <li><a href="#"><i class="fa-solid fa-angles-right" style="color: #0000ff;"></i>Important Link 4</a></li>
+                <li><a href="#"><i class="fa-solid fa-angles-right" style="color: #0000ff;"></i>Important Link 5</a></li>
+            </div>
+            <div class="box">
+                <div class="line">
+                    <p><i class="fas fa-map-marker-alt fa-fw" style="color: #0000ff;"></i>Egypt, Giza, Inside The Sphinx, Room Number 220</p>
+                </div>
+                <div class="line">
+                    <div class="info"><i class="far fa-clock fa-fw" style=" color: blue;"></i> Business Hours: From 10:00 To 18:00</div>
+                </div>
+                <br>
+                <div class="line">
+                    <div class="info">
+                        <i class="fas fa-phone-volume fa-fw" style="color: blue;"></i>
+                        <span>+20123456789</span>
+                        <span>+20198765432</span>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/post1.jpg" alt="" />
+                <img src="images/post2.jpg" alt="" />
+                <img src="images/post3.jpg" alt="" />
+                <img src="images/post4.png" alt="" />
+            </div>
+        </div>
+        <!-- end footer -->
+
+        <!-- end footer -->
+
+
+
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="mian.js"></script>
+
+</body>
+
+</html>
+
+</html>
